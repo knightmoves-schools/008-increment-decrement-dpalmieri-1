@@ -4,9 +4,10 @@ public class Counter
     public static int Visitors = 100;
 
     // Add your code here
-    int PrefixIncrement = ++Visitors;
-    int PostfixIncrement = Visitors++;
-    int PrefixDecrement = --Visitors;
-    int PostfixDecrement = Visitors--;
+    public int PrefixIncrement = ++Visitors;
+    public int PostfixIncrement = Visitors++;
+    public int PrefixDecrement = --Visitors;
+    public int PostfixDecrement = Visitors--;
 }
+
 
